@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+import React, { useState, useEffect } from 'react';
+import Loading from './components/Loading.jsx';
 import './App.css';
+import MainPage from './components/MainPage.jsx';
 
 function App() {
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    // Simulate the loading process
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 2000); // Change loading state after 2 seconds
+  }, []); // Empty dependency array means this effect runs once on mount
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div>
+        {isLoading ? <Loading/> : <MainPage/>}
+      </div>
     </div>
   );
 }

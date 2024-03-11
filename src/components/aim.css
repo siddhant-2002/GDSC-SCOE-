@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+.aimDiv {
+	font-family: "Noto Sans";
+	font-style: normal;
+	font-weight: 500;
+	align-items: center;
+	display: flex;
+	/* justify-content: center; */
+	flex-direction: column;
+	letter-spacing: 0.12em;
+	font-size: 100%;
+
+	line-height: 180%;
+	color: #797979;
+}
+
+/* Through GSDC - SCOE we, Developers and Designers want to foster a healthy development culture. Developer Student Clubs is a program that will help students to learn mobile and web development, design thinking and leadership skills. */
+
+/* position: absolute;
+width: 542px;
+height: 144px;
+left: 509px;
+top: 792px;
+
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 500;
+
+text-align: center;
+
+
+color: #797979;
+ */

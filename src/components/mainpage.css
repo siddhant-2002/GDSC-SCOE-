@@ -1,0 +1,51 @@
+.redline {
+    position: absolute;
+    z-index: -11; /* Adjust as needed */
+}
+.blueline {
+    position: absolute;
+    right: 0;
+    top: -5vh;
+    z-index: -11; /* Adjust as needed */
+
+}
+
+.square{
+    position: absolute;
+    z-index: 1;
+    top: 30%;
+    left: 8%;
+    /* Adjust as needed */
+}
+.yellowrectangle {
+    position: absolute;
+    z-index: 1;
+    top: 61vh;
+    /* Adjust as needed */
+    
+}
+
+.whiterectangle {
+    position: absolute;
+    z-index: 2;
+    top: 57vh;
+    
+}
+
+
+.whitecircle {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: 61vh;
+    /* Adjust as needed */
+    
+}
+
+.greencircle {
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    top: 65vh;
+    
+}

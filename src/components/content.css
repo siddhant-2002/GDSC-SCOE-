@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.contentDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    padding: 4%;
+    font-size: 18px; /* Increase font size for better readability */
+    
+}
+
+.content{
+    font-family: 'Open Sans';
+    font-style: normal;
+
+    font-size: 50px;
+    color: #BBBBBB;
+}
+
+.content1{
+    letter-spacing: 0.07em;
+    font-size: 50px;
+    color: #BBBBBB;
+    font-weight: bolder;
+    padding-left: 20%;
+
+}
+.content2{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 26px;
+    color: #BBBBBB;
+    font-weight: lighter;
+}
+.peoplelogo{
+    width: 80%;
+    height: auto;
+    /* border-radius: 50%; */
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.g{
+    color: #EA4235;
+}
+
+.d{
+    color: #109D58;
+}
+
+.s{
+    color: #4286F5;
+}
+
+.c{
+    color: #FABD03;
+}
+
+.scoe{
+    color: #00D3C7;
+}
+
+
+
+
+
+/* Google Developer Student Clubs */
+
+/* position: absolute;
+width: 476px;
+height: 286px;
+left: 243px;
+top: 310px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 87px;
+display: flex;
+align-items: center;
+
+
+color: #EA4235; */
+
