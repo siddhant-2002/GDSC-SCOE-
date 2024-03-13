@@ -1,0 +1,13 @@
+.eventslider{
+    padding-top: 7%;
+    padding-bottom: 7%;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+.simple-image-slider .slider-image {
+    object-fit: cover;
+    border-radius: 50px;
+    overflow: hidden;
+  }

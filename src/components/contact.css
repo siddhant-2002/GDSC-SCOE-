@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+.gdscname{
+    position: absolute;
+    right: 64px;
+    top: -10vh;
+    width: 37%;
+    height: auto;
+    z-index: -10;
+}
+
+.maindiv{
+    padding: 3%;
+}
+
+.contactdiv{
+    padding-left: 12%;
+    padding-top: 10%;
+}
+
+.contactdiv2{
+    display: flex;
+    /* justify-content: space-around; */
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: stretch;
+    line-height: 200%;
+    gap: 20%;
+
+}
+
+.span1{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    color: #91969F;
+    font-size: 250%;
+    line-height: 44px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.span2{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 27px;
+
+color: #626262;
+}
+
+
+
+
+.contactlogo{
+    width: 20%;
+    /* padding: 0%; */
+    height: auto;
+}

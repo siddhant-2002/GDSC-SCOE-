@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.sliderdiv1{
+    width:500px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.eventheader{
+
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 81px;
+text-align: center;
+
+color: #000000;
+
+
+}

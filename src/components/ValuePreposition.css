@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.slider img {
+    /* position: absolute; */
+    width: 550px;
+    height: 550px;
+    object-fit: cover;
+    transition: opacity 2s ease-in-out; /* Increase the duration to 2 seconds */
+  }
+  
+  .slider .fade-in {
+    opacity: 1;
+  }
+
+
+  .slider{
+    padding: 10%;
+    display: flex;
+  }
+  
+  .slider .card {
+    /* position: absolute; */
+    /* width: 200px;
+    height: 100px; */
+    width: 50%;
+    background-color: white;
+    padding: 20px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    transition: transform 2s ease-in-out; /* Animate the transform property */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  
+  .slider .card.fade-in {
+    transform: translateX(0); /* Start from the current position */
+  }
+  
+  .slider .card.fade-out {
+    transform: translateX(-100%); /* End at a position off to the left */
+  }
+
+.Number{
+ 
+font-family: 'Noto Sans';
+display: flex;
+font-style: normal;
+font-weight: 600;
+font-size: 100px;
+text-align: center;
+
+color: #EA4235;
+
+
+}
+
+.developers{
+
+
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 34px;
+text-align: center;
+
+color: #898989;
+
+
+}

@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import Loading from './components/Loading.jsx';
 import './App.css';
 import MainPage from './components/MainPage.jsx';
+import Contact from './components/Contact.jsx';
+import Events from "./components/Events.jsx";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);

@@ -3,7 +3,10 @@ import Navbar from './Navbar';
 import Content from './Content.jsx';
 import Aim from './Aim.jsx';
 import './mainpage.css';
-import Contact from './Contact.jsx';
+import Footer from './Footer.jsx';
+import Events from './Events.jsx';
+import ValuePreposition from './ValuePreposition.jsx';
+
 
 const MainPage = () => {
   return (
@@ -37,7 +40,15 @@ const MainPage = () => {
       <img className='greencircle' src="./images/green circle.png" alt="" />
 
       <div>
-        <Contact/>
+        <ValuePreposition/>
+      </div>
+
+      <div>
+        <Events/>
+      </div>
+
+      <div>
+        <Footer/>
       </div>
     </div>
   )
