@@ -1,36 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './ValuePreposition.css'; // Import the CSS file
-
-// const ValuePreposition = () => {
-//   const images = [
-//     '/images/img (1).png',
-//     '/images/img (2).png',
-//     '/images/img (3).png',
-//     '/images/img (4).png',
-//     // Add more image URLs here
-//   ];
-
-//   const [currentImage, setCurrentImage] = useState(0);
-// //   const [previousImage, setPreviousImage] = useState(images.length - 1);
-
-//   useEffect(() => {
-//     const interval = setInterval(() => {
-//     //   setPreviousImage(currentImage);
-//       setCurrentImage((prevImage) => (prevImage === images.length - 1 ? 0 : prevImage + 1));
-//     }, 3000);
-
-//     return () => clearInterval(interval);
-//   }, [images.length, currentImage]);
-
-//   return (
-//     <div className="slider">
-//       {/* <img src={images[previousImage]} alt=""  /> */}
-//       <img src={images[currentImage]} alt="" className="fade-in" />
-//     </div>
-//   );
-// };
-
-
+import './ValuePreposition.css'; 
 
 const ValuePreposition = () => {
   const images = [
@@ -38,7 +7,7 @@ const ValuePreposition = () => {
     '/images/img (2).png',
     '/images/img (3).png',
     '/images/img (4).png',
-    // Add more image URLs here
+    
   ];
 
   const cards = [
@@ -46,7 +15,7 @@ const ValuePreposition = () => {
     { name: 'community of', number: "2,000+", developers: "Students influenced" },
     { name: 'community of', number: "1,250+", developers: "chapters across world" },
     { name: 'community of', number: "140", developers: "countries " },
-    // Add more card data here
+    
   ];
 
   const colors = ['#EA4235', '#4286F5', '#109D58', '#FABD03'];
